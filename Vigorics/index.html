@@ -1,0 +1,321 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <title>Vigorics</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100;200&family=Playfair+Display:wght@400;500;600;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,100;1,200&family=Rancho&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="overlay"></div>
+
+<div class="utility-nav d-none d-md-block">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <p class="small"><i class="bx bx-envelope"></i> Vig@example.com | <i class="bx bx-phone"></i> +91-9876543210
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6 text-right">
+        <p class="small">Free shipping on total of $99 of all products</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light main-menu" style="box-shadow:none">
+  <div class="container">
+
+    <button type="button" id="sidebarCollapse" class="btn btn-link d-block d-md-none">
+                <i class="bx bx-menu icon-single"></i>
+            </button>
+
+    <a class="navbar-brand" href="#">
+      <h2 class="font-weight-bold"><b>V</b>igorics</h2>
+    </a>
+
+    <ul class="navbar-nav ml-auto d-block d-md-none">
+      <li class="nav-item">
+        <a class="btn btn-link" href="#"><i class="fa fa-cart-plus"></i> <span class="badge badge-danger">3</span></a>
+      </li>
+    </ul>
+
+    <div class="collapse navbar-collapse">
+      <form class="form-inline my-2 my-lg-0 mx-auto">
+        <input class="form-control" type="search" placeholder="Search for products..." aria-label="Search">
+        <button class="btn btn-outline my-2 my-sm-2" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="btn btn-link" href="#"><i class="fa fa-cart-plus"></i></a>
+        </li>
+        <li class="nav-item ml-md-3">
+          <a class="btn btn-primary" href="#"><i class="bx bxs-user-circle mr-1"></i> Log In / Register</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sub-menu">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Tops
+                          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Blazer</a>
+              <a class="dropdown-item" href="#">Shirts</a>
+              <a class="dropdown-item" href="#">Jackets</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Bottoms
+                          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pants</a>
+              <a class="dropdown-item" href="#">Skirts</a>
+              <a class="dropdown-item" href="#">Shorts</a>
+            </div>
+          </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shoes
+                        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Flats</a>
+            <a class="dropdown-item" href="#">Heels</a>
+            <a class="dropdown-item" href="#">Casual Shoes</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Accessories
+                        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Watch</a>
+            <a class="dropdown-item" href="#">Pendants</a>
+            <a class="dropdown-item" href="#">Bracelets</a>
+          </div>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="search-bar d-block d-md-none">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <form class="form-inline mb-3 mx-auto">
+          <input class="form-control" type="search" placeholder="Search for products..." aria-label="Search">
+          <button class="btn btn-success" type="submit"><i class="bx bx-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section id="hero-section">
+  <img id="hero" src="img/6.jpg" alt="" width="100%">
+  <div class="sqr">
+    <hr id="hr2" width="400px" color="black" >
+    <p class="text-hero">
+     <b>Sale Upto 40% </b>  <br>
+    </p>
+    <p class="text-hero1">
+      on formal apparels
+    </p>
+
+    <a id="btn-hero" class="btn btn-outline-dark" href="#" role="button"><i class="fa fa-plus" aria-hidden="true"></i> Explore
+      </a>
+     <hr id="hr1" width="400px" color="black" >
+  </div>  
+  
+</section>
+
+<h2 id="header-deals">DEALS OF THE DAY</h2>
+
+<section id="deals">
+
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/10.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Regular Faux Leather Jacket <br>
+          Rs.2,999</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/9.webp" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Relaxed Fit Linen-blend shirt
+          Rs.999</p>
+      </div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/Formal-Bodycon-Blazer-Dress.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Formal Bodycon Blazer Dress <br> Rs.1,499
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/8.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Regular Fit Leather Jacket <br> Rs.3,999</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/7.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">Formal Black Blazer <br> Rs.1,899.</p>
+      </div>
+    </div>
+  </div>
+ 
+
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="content">
+      ⁡⁢⁣⁣ ⁡
+      <div class="col">
+        <p>contact us</p>
+        
+        <div class="flex">
+          <div class="col-info">
+            <p>
+              PHONE NUMBER <br />
+              <span>+1 (800) 060-07-30</span>
+            </p>
+            <p>
+              OUR LOCATION <br />
+              <span>New Delhi</span>
+            </p>
+            <p>
+              EMAIL ADDRESS <br />
+              <span>vig@example.com</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      ⁡⁢⁣⁡⁢⁣⁣ ⁡
+      <div class="col">
+        <div class="column">
+          <p>information</p>
+          <p>about us</p>
+          <p>delivery information</p>
+          <p>privacy policy</p>
+          <p>contact us</p>
+          <p>returns</p>
+          <p>site map</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="column">
+          <p>my account</p>
+          <p>store location</p>
+          <p>order history</p>
+          <p>wish list</p>
+        </div>
+      </div>
+      ⁡⁢⁣⁣ ⁡
+      <div class="col">
+        <p>newsletter</p>
+        <p>
+          enter your email address below to subscribe to our newsletter<br />
+          and keep up to date with discounts and special offers.
+        </p>
+        <div class="email">
+          <input type="email" placeholder="user@example.com" />
+          <button>Subscribe</button>
+        </div>
+        <p>follow us on social networks:</p>
+        <div class="social">
+          <img src="https://i.postimg.cc/44pPB9wk/facebook.png" alt="" />
+          <img src="https://i.postimg.cc/L8Q3nB4f/twitter.png" alt="" />
+          <img src="https://i.postimg.cc/TYG9S3Hy/instagram.png" alt="" />
+          <img src="https://i.postimg.cc/kGCxkTwr/youtube.png" alt="" />
+          <img src="https://i.postimg.cc/CKZHDBd2/telegram.png" alt="" />
+        </div>
+      </div>
+      ⁡⁢⁡⁢⁣⁣
+    </div>
+  </div>
+  <div class="content-foot">
+    <div class="container">
+      <div class="foot-text">
+        <p>powered by <span>tech</span> - designed by <span>Diksha & Karishma</span></p>
+        <div class="pay">
+          <img src="https://i.postimg.cc/PrtWyFPY/visa-logo-png-2013.png" alt="" />
+          <img src="https://i.postimg.cc/R0j1TSHZ/mastercard-PNG23.png" alt="" />
+          <img src="https://i.postimg.cc/sggJj0zs/paypal-logo-png-2119.png" alt="" />
+          <img src="https://i.postimg.cc/hjdsFzBm/American-Express-logo-PNG14.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>  
+</body>
+
+</html>
