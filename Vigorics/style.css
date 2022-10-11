@@ -59,7 +59,7 @@ margin-left: 110px;
 
 }
 
-#header-deals{
+.header-deals{
   margin-top: 40px;
   margin-left: 80px;
 }
@@ -332,6 +332,44 @@ margin-left: 110px;
     height: 110px;
  }
 
+
+#adv{
+  background: rgb(148,71,240);
+background: -moz-linear-gradient(90deg, rgba(148,71,240,1) 16%, rgba(123,77,242,1) 77%, rgba(183,88,246,1) 100%, rgba(0,237,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(148,71,240,1) 16%, rgba(123,77,242,1) 77%, rgba(183,88,246,1) 100%, rgba(0,237,255,1) 100%);
+background: linear-gradient(90deg, rgba(148,71,240,1) 16%, rgba(123,77,242,1) 77%, rgba(183,88,246,1) 100%, rgba(0,237,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9447f0",endColorstr="#00edff",GradientType=1);
+   height: 250px;
+}
+
+
+.banner img{
+  height: 55px;
+}
+.banner{
+  width: auto;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 15px;
+  color:white;
+}
+
+.banner h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+}
+.banner h4{
+  padding-top: 3px;
+  font-family:'Roboto';
+  font-weight: 310;
+}
+
+.banner p{
+  font-size: 10px;
+}
+
  /* Footer */
  * {
   box-sizing: border-box;
@@ -465,3 +503,32 @@ footer {
   background-color: white;
   padding: 10px 5px;
 }
+
+
+/* TRENDING BLAZERS */
+#tb{
+  text-align: center;
+}
+
+#tops{
+  margin-top: 60px;
+}
+
+.blazers {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 40px;
+}
+  
+  .cards1{
+    margin-left: 10px;
+  }
+  
+   .card1-img-top{
+      height: 350px;
+      width: 250px;
+   }
+   .card1-body{
+      height: 110px;
+   }
