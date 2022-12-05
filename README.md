@@ -1,3 +1,3 @@
 # vigorics
 An E-commerce website for women apparels.
-![screencapture-vigorics-netlify-app-2022-10-11-17_52_30](https://user-images.githubusercontent.com/91546745/195088581-942339f0-f975-4511-8134-e012fd5aec74.png)
+![screencapture-vigorics-netlify-app-2022-12-06-01_00_22](https://user-images.githubusercontent.com/91546745/205726077-77c99668-f28d-4427-b883-695f21ad071e.png)
